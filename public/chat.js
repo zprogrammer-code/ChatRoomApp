@@ -1,6 +1,6 @@
 // make connection
 
-const socket = io.connect("https://zprogrammer-code.github.io/ChatRoomApp/public/")
+const socket = io.connect("http://localhost:4000")
 
 // query DOM
 

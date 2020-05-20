@@ -24,8 +24,8 @@ socket.on('chat', function(data){
 });
 
 socket.on('typing', function(data){
-    socket.broadcast.emit('typing', data)
-})
+    socket.broadcast.emit('typing', data);
+});
 
 });
 
