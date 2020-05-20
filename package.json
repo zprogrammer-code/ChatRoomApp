@@ -21,6 +21,7 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "nodemon": "^2.0.4"
   }
 }
