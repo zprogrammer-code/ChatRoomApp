@@ -35,4 +35,3 @@ socket.on('typing', function(data){
 
 
 
-// app.use(express.static(__dirname + '/public'));
