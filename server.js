@@ -1,12 +1,32 @@
-const express = require('express');
-const socket = require('socket.io');
 
+const express = require('express');
 //App setup
 
 const app = express();
 const server = app.listen(4000, function(){
     console.log('listening to request on port 4000');
 });
+
+// Routes/Config
+
+
+app.set("view-engine", 'ejs')
+
+app.get("/", (req, res) => {
+    res.render(index.ejs)
+})
+
+app.get("/", (req, res) => {
+    res.render(login.ejs)
+})
+
+app.get("/", (req, res) => {
+    res.render(register.ejs)
+})
+
+
+
+const socket = require('socket.io');
 
 //Static files
 
@@ -28,6 +48,8 @@ socket.on('typing', function(data){
 });
 
 });
+
+
 
 
 
