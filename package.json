@@ -4,13 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zprogrammer-code/ChatRoomApp.git"
   },
-  "author": "",
+  "author": "ZJ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zprogrammer-code/ChatRoomApp/issues"
